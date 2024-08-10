@@ -7,7 +7,7 @@ namespace ncore.m3decsharp
     {
         static void Main(string[] args)
         {
-            using var game = new Level1(); 
+            using var game = new Level2(); 
             game.Run();
         }
     }

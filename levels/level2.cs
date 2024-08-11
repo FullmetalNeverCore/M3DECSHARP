@@ -21,7 +21,7 @@ namespace ncore.m3decsharp.levels
         public Level2()
         {
             _grph = new GraphicsDeviceManager(this); //graphics initialization 
-            Content.RootDirectory = "levels"; 
+            Content.RootDirectory = "Content"; 
             IsMouseVisible = true; 
         }
 
@@ -45,14 +45,8 @@ namespace ncore.m3decsharp.levels
             _sprite = new SpriteBatch(GraphicsDevice);
 
             //stretch texture to horizon
-            _hortx = new Texture2D(GraphicsDevice, GraphicsDevice.Viewport.Width, GraphicsDevice.Viewport.Height);
-            Color[] data = new Color[GraphicsDevice.Viewport.Width * GraphicsDevice.Viewport.Height];
-            for (int i = 0; i < data.Length; i++)
-            {
-                data[i] = Color.Red; 
-            }
-            _hortx.SetData(data);
-            _horpos = new Vector2(0, GraphicsDevice.Viewport.Height / 2);
+            _hortx = new Texture2D(GraphicsDevice, 1,1);
+            _hortx.SetData(new[]{Color.Red});
         }
         private void UpdatePlayerPosition(GameTime gameTime)
         {
@@ -69,6 +63,7 @@ namespace ncore.m3decsharp.levels
             if (keyboardState.IsKeyDown(Keys.D))
                 _playerPos.X += moveSpeed;
 
+            _cam.Update(_playerPos); //sending data to camera 
         }
         protected override void Update(GameTime gameTime)
         {
@@ -77,8 +72,6 @@ namespace ncore.m3decsharp.levels
 
             UpdatePlayerPosition(gameTime);
 
-            Vector2 campos = _playerPos; 
-            _cam.Update(campos); //sending data to camera 
 
             base.Update(gameTime);
         }
@@ -88,18 +81,14 @@ namespace ncore.m3decsharp.levels
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             _sprite.Begin(transformMatrix: _cam.transform);
-            // Draw the horizon texture repeatedly across the screen
+
             int screenWidth = GraphicsDevice.Viewport.Width;
-            int txwidth = _hortx.Width; 
+            int screenHeight = GraphicsDevice.Viewport.Height;
 
-            //how many tiles need to be drawn to cover a horizon
-            int numberOfTiles = (int)Math.Ceiling((double)screenWidth / txwidth);
+            // This will be a horizontal line that extends infinitely along the X-axis
+            Rectangle redLineRect = new Rectangle((int)(_playerPos.X - screenWidth / 2), 0, screenWidth, screenHeight);
 
-            for(int i = 0;i<numberOfTiles;i++)
-            {
-                _sprite.Draw(_hortx, new Vector2(i * txwidth,_horpos.Y),Color.White);
-            }
-
+            _sprite.Draw(_hortx, redLineRect, Color.Red);
 
             _sprite.End();
 

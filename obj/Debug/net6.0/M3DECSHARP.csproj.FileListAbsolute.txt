@@ -23,3 +23,36 @@
 /Users/nevercore/m3decsharp /M3DECSHARP/obj/Debug/net6.0/M3DECSHARP.pdb
 /Users/nevercore/m3decsharp /M3DECSHARP/obj/Debug/net6.0/M3DECSHARP.genruntimeconfig.cache
 /Users/nevercore/m3decsharp /M3DECSHARP/obj/Debug/net6.0/ref/M3DECSHARP.dll
+/Users/nevercore/m3decsharp /M3DECSHARP/obj/Debug/net6.0/M3DECSHARP.sourcelink.json
+/Users/nevercore/m3decsharp /M3DECSHARP/bin/Debug/net6.0/Autofac.dll
+/Users/nevercore/m3decsharp /M3DECSHARP/bin/Debug/net6.0/MonoGame.Extended.dll
+/Users/nevercore/m3decsharp /M3DECSHARP/bin/Debug/net6.0/MonoGame.Extended.Content.Pipeline.dll
+/Users/nevercore/m3decsharp/M3DECSHARP/bin/Debug/net6.0/M3DECSHARP
+/Users/nevercore/m3decsharp/M3DECSHARP/bin/Debug/net6.0/M3DECSHARP.deps.json
+/Users/nevercore/m3decsharp/M3DECSHARP/bin/Debug/net6.0/M3DECSHARP.runtimeconfig.json
+/Users/nevercore/m3decsharp/M3DECSHARP/bin/Debug/net6.0/M3DECSHARP.dll
+/Users/nevercore/m3decsharp/M3DECSHARP/bin/Debug/net6.0/M3DECSHARP.pdb
+/Users/nevercore/m3decsharp/M3DECSHARP/bin/Debug/net6.0/Autofac.dll
+/Users/nevercore/m3decsharp/M3DECSHARP/bin/Debug/net6.0/MonoGame.Extended.dll
+/Users/nevercore/m3decsharp/M3DECSHARP/bin/Debug/net6.0/MonoGame.Extended.Content.Pipeline.dll
+/Users/nevercore/m3decsharp/M3DECSHARP/bin/Debug/net6.0/MonoGame.Framework.dll
+/Users/nevercore/m3decsharp/M3DECSHARP/bin/Debug/net6.0/runtimes/linux-x64/native/libSDL2-2.0.so.0
+/Users/nevercore/m3decsharp/M3DECSHARP/bin/Debug/net6.0/runtimes/linux-x64/native/libopenal.so.1
+/Users/nevercore/m3decsharp/M3DECSHARP/bin/Debug/net6.0/runtimes/osx/native/libSDL2.dylib
+/Users/nevercore/m3decsharp/M3DECSHARP/bin/Debug/net6.0/runtimes/osx/native/libopenal.1.dylib
+/Users/nevercore/m3decsharp/M3DECSHARP/bin/Debug/net6.0/runtimes/win-x64/native/SDL2.dll
+/Users/nevercore/m3decsharp/M3DECSHARP/bin/Debug/net6.0/runtimes/win-x64/native/soft_oal.dll
+/Users/nevercore/m3decsharp/M3DECSHARP/bin/Debug/net6.0/runtimes/win-x86/native/SDL2.dll
+/Users/nevercore/m3decsharp/M3DECSHARP/bin/Debug/net6.0/runtimes/win-x86/native/soft_oal.dll
+/Users/nevercore/m3decsharp/M3DECSHARP/obj/Debug/net6.0/M3DECSHARP.csproj.AssemblyReference.cache
+/Users/nevercore/m3decsharp/M3DECSHARP/obj/Debug/net6.0/M3DECSHARP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nevercore/m3decsharp/M3DECSHARP/obj/Debug/net6.0/M3DECSHARP.AssemblyInfoInputs.cache
+/Users/nevercore/m3decsharp/M3DECSHARP/obj/Debug/net6.0/M3DECSHARP.AssemblyInfo.cs
+/Users/nevercore/m3decsharp/M3DECSHARP/obj/Debug/net6.0/M3DECSHARP.csproj.CoreCompileInputs.cache
+/Users/nevercore/m3decsharp/M3DECSHARP/obj/Debug/net6.0/M3DECSHARP.sourcelink.json
+/Users/nevercore/m3decsharp/M3DECSHARP/obj/Debug/net6.0/M3DECSHARP.csproj.Up2Date
+/Users/nevercore/m3decsharp/M3DECSHARP/obj/Debug/net6.0/M3DECSHARP.dll
+/Users/nevercore/m3decsharp/M3DECSHARP/obj/Debug/net6.0/refint/M3DECSHARP.dll
+/Users/nevercore/m3decsharp/M3DECSHARP/obj/Debug/net6.0/M3DECSHARP.pdb
+/Users/nevercore/m3decsharp/M3DECSHARP/obj/Debug/net6.0/M3DECSHARP.genruntimeconfig.cache
+/Users/nevercore/m3decsharp/M3DECSHARP/obj/Debug/net6.0/ref/M3DECSHARP.dll

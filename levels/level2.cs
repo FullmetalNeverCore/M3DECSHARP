@@ -45,8 +45,8 @@ namespace ncore.m3decsharp.levels
             _sprite = new SpriteBatch(GraphicsDevice);
 
             //stretch texture to horizon
-            _hortx = new Texture2D(GraphicsDevice, 1,1);
-            _hortx.SetData(new[]{Color.Red});
+            _hortx = Content.Load<Texture2D>("doom");
+       
         }
         private void UpdatePlayerPosition(GameTime gameTime)
         {

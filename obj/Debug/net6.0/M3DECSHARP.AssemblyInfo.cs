@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("M3DECSHARP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9101907fafd17b136eb8a73531294b5b312fab3e")]
 [assembly: System.Reflection.AssemblyProductAttribute("M3DECSHARP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("M3DECSHARP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nevercore/m3decsharp /M3DECSHARP/M3DECSHARP.csproj": {}
+    "/Users/nevercore/m3decsharp/M3DECSHARP/M3DECSHARP.csproj": {}
   },
   "projects": {
-    "/Users/nevercore/m3decsharp /M3DECSHARP/M3DECSHARP.csproj": {
+    "/Users/nevercore/m3decsharp/M3DECSHARP/M3DECSHARP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nevercore/m3decsharp /M3DECSHARP/M3DECSHARP.csproj",
+        "projectUniqueName": "/Users/nevercore/m3decsharp/M3DECSHARP/M3DECSHARP.csproj",
         "projectName": "M3DECSHARP",
-        "projectPath": "/Users/nevercore/m3decsharp /M3DECSHARP/M3DECSHARP.csproj",
+        "projectPath": "/Users/nevercore/m3decsharp/M3DECSHARP/M3DECSHARP.csproj",
         "packagesPath": "/Users/nevercore/.nuget/packages/",
-        "outputPath": "/Users/nevercore/m3decsharp /M3DECSHARP/obj/",
+        "outputPath": "/Users/nevercore/m3decsharp/M3DECSHARP/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/nevercore/.nuget/NuGet/NuGet.Config"
@@ -46,6 +46,10 @@
             "MonoGame.Content.Builder.Task": {
               "target": "Package",
               "version": "[3.8.1.303, )"
+            },
+            "MonoGame.Extended.Content.Pipeline": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             },
             "MonoGame.Framework.DesktopGL": {
               "target": "Package",

@@ -31,6 +31,7 @@ namespace ncore.m3decsharp.basic_tools
 
         private void UpdateTransform()
         {
+            
             transform = Matrix.CreateTranslation(-pos.X, -pos.Y, 0) *
                         Matrix.CreateRotationZ(rot) *
                         Matrix.CreateScale(zoom, zoom, 1) *
